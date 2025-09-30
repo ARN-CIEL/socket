@@ -36,7 +36,7 @@ namespace socketUDP
             int LocalPort = int.Parse(textBox3.Text);
             localEP = new IPEndPoint(LocalIP, LocalPort);
             SSockUDP.Bind(localEP);
-            SSockUDP.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveTimeout, 10000);
+            SSockUDP.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveTimeout, 5000);
         }
 
 
@@ -86,6 +86,10 @@ namespace socketUDP
             textBox6.Clear();
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
