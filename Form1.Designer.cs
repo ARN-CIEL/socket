@@ -132,6 +132,7 @@
 
             this.textBox1.TabIndex = 0;
 
+            this.textBox1.Text = "127.0.0.1";
 
             // 
 
@@ -237,6 +238,8 @@
 
             this.textBox2.TabIndex = 3;
 
+            this.textBox2.Text = "127.0.0.1";
+
 
             // 
 
@@ -285,6 +288,8 @@
 
             this.textBox3.TabIndex = 5;
 
+            this.textBox3.Text = "8000";
+
 
             // 
 
@@ -332,6 +337,8 @@
 
 
             this.textBox4.TabIndex = 7;
+
+            this.textBox4.Text = "8001";
 
 
             // 
